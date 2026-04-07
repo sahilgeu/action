@@ -1,0 +1,19 @@
+name: my first project
+on: push
+
+jobs:
+ job1:
+   name: to print hello
+   runs-on: ubuntu-latest
+   steps:
+     - name: to print hell world
+       run: echo "hello"
+   
+ job2:
+   name: to print  version
+   needs: job1
+   runs-on: ubuntu-latest
+   steps:
+     - name: to print version
+       run: cat/etc/os-release
+   
