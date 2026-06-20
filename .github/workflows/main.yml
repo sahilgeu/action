@@ -1,2 +1,9 @@
 name: first gigt
 on: push
+jobs:
+  job1:
+    name: to print hello
+    runs-on: ubuntu-latest
+    steps:
+      - name: to print
+        run: echo "hello world"
