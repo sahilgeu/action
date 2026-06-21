@@ -6,6 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: to print
-        run: echo "hello world"
-      - name: to
-        run: cat /etc/os-release
+        run: |
+            echo "hello world"
+            echo "name is "
+      
