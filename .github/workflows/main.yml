@@ -9,4 +9,11 @@ jobs:
         run: |
             echo "hello world"
             echo "name is "
-      
+  job2:
+    name: to print hello
+    runs-on: ubuntu-latest
+    steps:
+      - name: to print
+        run: |
+            echo "orld"
+            echo "nme is "
