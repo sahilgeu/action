@@ -1,0 +1,13 @@
+name: to run multiple commands
+on: 
+  push
+jobs: 
+  build:
+  name: to run multiple 
+  runs-on: ubuntu-latest
+  steps:
+     - name: to
+       run: |
+              echo "jeasd"
+              echo "jdaskkjas"
+  
